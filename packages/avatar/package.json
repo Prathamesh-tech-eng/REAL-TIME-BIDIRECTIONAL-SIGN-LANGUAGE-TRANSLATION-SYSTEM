@@ -1,0 +1,12 @@
+{
+  "name": "signbridge-avatar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3D Sign Language Avatar Renderer for SignBridge",
+  "main": "AvatarRenderer.js",
+  "scripts": {
+    "test": "node test/avatar_test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

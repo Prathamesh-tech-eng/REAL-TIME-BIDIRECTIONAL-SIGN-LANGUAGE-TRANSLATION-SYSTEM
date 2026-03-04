@@ -1,0 +1,13 @@
+{
+  "name": "signbridge-gloss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "English → ASL Gloss translation module for SignBridge",
+  "main": "gloss_translator.js",
+  "scripts": {
+    "test": "node test/gloss_test.js",
+    "evaluate": "node evaluate_bleu.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
