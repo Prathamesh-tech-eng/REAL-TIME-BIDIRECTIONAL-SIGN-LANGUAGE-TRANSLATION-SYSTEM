@@ -1,0 +1,9 @@
+{
+  "name": "@signbridge/optimization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 6 — Performance Optimization & Hardening modules",
+  "scripts": {
+    "test": "node test/optimization_test.js"
+  }
+}
