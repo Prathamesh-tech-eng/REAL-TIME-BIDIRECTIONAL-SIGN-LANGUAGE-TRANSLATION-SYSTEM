@@ -1,0 +1,42 @@
+# /etc/turnserver.conf — coturn configuration for SignBridge
+#
+# Install: sudo apt-get install coturn
+# Enable: Edit /etc/default/coturn → TURNSERVER_ENABLED=1
+# Run:    sudo systemctl start coturn
+#
+# Required firewall rules:
+#   UDP/TCP 3478  (TURN listening)
+#   TCP    5349  (TLS TURN)
+#   UDP    49152-65535 (relay range)
+
+listening-port=3478
+tls-listening-port=5349
+realm=signbridge.example.com
+
+# Use long-term credential mechanism with shared secret
+use-auth-secret
+static-auth-secret=YOUR_RANDOM_SECRET_64_CHARS
+
+# TLS — disable insecure versions
+no-tlsv1
+no-tlsv1_1
+
+# Security: block private LAN ranges
+denied-peer-ip=10.0.0.0-10.255.255.255
+denied-peer-ip=172.16.0.0-172.31.255.255
+denied-peer-ip=192.168.0.0-192.168.255.255
+
+# Logging
+log-file=/var/log/coturn/turn.log
+
+# Performance
+min-port=49152
+max-port=65535
+
+# Fingerprinting
+fingerprint
+
+# Rate limiting
+total-quota=100
+bps-capacity=0
+stale-nonce=600

@@ -1,0 +1,25 @@
+{
+  "name": "@signbridge/signaling",
+  "version": "1.0.0",
+  "description": "SignBridge WebRTC signaling server — Node.js + socket.io + Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test/signaling_test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
