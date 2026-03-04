@@ -1,0 +1,10 @@
+{
+  "name": "@signbridge/e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 8 — End-to-End Testing & Deployment",
+  "scripts": {
+    "test": "node test/e2e_test.js",
+    "regression": "node test/regression_test.js"
+  }
+}
