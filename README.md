@@ -318,18 +318,18 @@ Every test runner exits `0` on pass, `1` on failure. See [complete_test.md](comp
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
-| Sign recognition accuracy (top-1) | ≥ 90 % | ✅ 93.8 % |
-| F1 score | ≥ 0.85 | ✅ > 0.85 |
-| Mean inference latency | < 65 ms | ✅ ~35 ms |
-| P99 inference latency | < 90 ms | ✅ < 90 ms |
-| End-to-end caption latency | < 200 ms | ✅ < 200 ms |
-| Frame drops (60 s @ 30 FPS) | 0 | ✅ 0 |
-| Memory growth (30 min) | < 10 MB | ✅ < 10 MB |
-| Battery drain (30 min) | ≤ 15 % | ✅ ≤ 15 % |
-| Quantization accuracy loss (int8) | ≤ 1.5 % | ✅ ~1.2 % |
-| Zero-copy CPU reduction | ≥ 15 % | ✅ ≥ 15 % |
-| Signaling failure rate (100 rooms) | < 0.1 % | ✅ < 0.1 % |
-| Network dropout recovery | < 10 s | ✅ < 10 s |
+| Sign recognition accuracy (top-1) | ≥ 90 % |  93.8 % |
+| F1 score | ≥ 0.85 |  > 0.85 |
+| Mean inference latency | < 65 ms |  ~35 ms |
+| P99 inference latency | < 90 ms |  < 90 ms |
+| End-to-end caption latency | < 200 ms |  < 200 ms |
+| Frame drops (60 s @ 30 FPS) | 0 |  0 |
+| Memory growth (30 min) | < 10 MB |  < 10 MB |
+| Battery drain (30 min) | ≤ 15 % |  ≤ 15 % |
+| Quantization accuracy loss (int8) | ≤ 1.5 % |  ~1.2 % |
+| Zero-copy CPU reduction | ≥ 15 % |  ≥ 15 % |
+| Signaling failure rate (100 rooms) | < 0.1 % |  < 0.1 % |
+| Network dropout recovery | < 10 s |  < 10 s |
 
 ---
 
