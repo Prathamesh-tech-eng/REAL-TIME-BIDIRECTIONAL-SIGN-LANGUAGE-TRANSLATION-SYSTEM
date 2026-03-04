@@ -1,0 +1,9 @@
+{
+  "name": "@signbridge/security",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 7 — Security & Privacy modules",
+  "scripts": {
+    "test": "node test/security_test.js"
+  }
+}
