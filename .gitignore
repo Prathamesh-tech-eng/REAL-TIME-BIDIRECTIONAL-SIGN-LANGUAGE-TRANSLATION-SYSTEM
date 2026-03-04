@@ -25,8 +25,8 @@ packages/core-cpp/dist/*.wasm
 # ML model binaries (large files)
 packages/ml-models/models/*.h5
 packages/ml-models/models/*.tflite
-packages/ml-models/data/*.npy
-packages/ml-models/data/*.csv
+packages/ml-models/models/*.json
+packages/ml-models/data/
 
 # IDE
 .idea/
