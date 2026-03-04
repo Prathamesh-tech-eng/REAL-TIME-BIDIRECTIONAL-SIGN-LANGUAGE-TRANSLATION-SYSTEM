@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@pipeline/*": ["src/pipeline/*"],
+      "@mediapipe/*": ["src/mediapipe/*"],
+      "@tflite/*": ["src/tflite/*"],
+      "@jni/*": ["src/jni/*"],
+      "@webrtc/*": ["src/webrtc/*"],
+      "@screens/*": ["src/screens/*"]
+    }
+  },
+  "include": ["src/**/*", "index.ts", "App.tsx"],
+  "exclude": ["node_modules", "dist", "test"]
+}

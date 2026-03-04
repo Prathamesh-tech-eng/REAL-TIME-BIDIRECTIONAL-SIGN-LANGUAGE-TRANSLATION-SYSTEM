@@ -1,0 +1,31 @@
+{
+  "name": "signbridge-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "node test/integration_test.js",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-webrtc": "^118.0.7",
+    "@mediapipe/tasks-vision": "^0.10.14",
+    "react-native-tts": "^4.1.0",
+    "@react-native-voice/voice": "^3.2.4",
+    "three": "^0.158.0",
+    "socket.io-client": "^4.7.5",
+    "react-native-camera": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "@types/three": "^0.158.0",
+    "typescript": "^5.3.3",
+    "socket.io": "^4.7.5",
+    "express": "^4.21.0"
+  }
+}
