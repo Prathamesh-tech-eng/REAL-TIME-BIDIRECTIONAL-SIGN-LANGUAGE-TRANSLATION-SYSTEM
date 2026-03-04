@@ -1,0 +1,43 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# C++ build artifacts
+packages/core-cpp/build/
+*.o
+*.so
+*.a
+*.dll
+
+# WASM output
+packages/core-cpp/dist/*.js
+packages/core-cpp/dist/*.wasm
+
+# ML model binaries (large files)
+packages/ml-models/models/*.h5
+packages/ml-models/models/*.tflite
+packages/ml-models/data/*.npy
+packages/ml-models/data/*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary scripts
+read_doc.py
+read_tables.py
